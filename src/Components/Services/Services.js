@@ -15,7 +15,7 @@ const Services = () => {
                         <img style={{height:'150px'}} src={front} alt=""/>
                         <div className="card-body">
                             <h5>Front-end Web Development</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ab esse cum nobis obcaecati quibusdam modi soluta minima tenetur inventore.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, rerum.</p>
                         </div>
                     </div>
                 </div>

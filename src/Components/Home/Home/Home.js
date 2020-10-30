@@ -1,10 +1,11 @@
 import React from 'react';
-import Main from '../Main/Main';
+import Front from '../Front/Front';
+import './Home.css';
 
 const Home = () => {
     return (
-        <div>
-            <Main/>
+        <div className="main-sec">
+            <Front/>
         </div>
     );
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import './Main.css';
 import Photo from '../../../images/profile.png'
 import SideNav from '../../SideNav/SideNav';
+import resume from '../../../images/Resume - Rakibul.pdf';
 import NavBar from '../../NavBar/NavBar';
 
 const Main = () => {
@@ -21,7 +22,8 @@ const Main = () => {
                    <h3>I am Md Rakibul Hasan</h3>
                    <h1>Full-Stack Web Developer</h1>
                    <p>I am a serious web developer. I am working on front-end and back-end in both fields. I'm dedicated and passionate about my works. I'm also a quick learner <br/> with high-quality coding skills.</p>
-                   <button className="btn">Download my resume</button>
+                   <a href={resume} download><button className="btn">Download my resume</button></a>
+                   <a href="/contact"><button className="contact-btn" type="reset">Contact me</button></a>
                 </div>
                 <footer> All Rights Reserved by rakiul.rupom2001@gmail.com - {(new Date()).getFullYear()} </footer>
             </div>

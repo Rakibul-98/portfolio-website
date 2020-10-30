@@ -19,8 +19,14 @@ form{
     margin-bottom: 10px;
 }
 .submit-btn{
-    width: 50%;
+    width: 48%;
     border: none;
     color: white;
-    background-color: rgb(19, 226, 157);
+    background-color: rgb(19, 226, 43);
+}
+.reset-btn{
+    width: 48%;
+    border: none;
+    color: white;
+    background-color:rgb(226, 19, 19) ;
 }

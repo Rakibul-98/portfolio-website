@@ -1,5 +1,4 @@
 import './App.css';
-import DashBoard from './Components/DashBoard/DashBoard';
 import Home from './Components/Home/Home/Home';
 import {
   BrowserRouter as Router,
@@ -10,20 +9,25 @@ import NoMatch from './Components/NoMatch/NoMatch';
 import Blogs from './Components/Blogs/Blogs';
 import Contacts from './Components/Contacts/Contacts';
 import Services from './Components/Services/Services';
+import Projects from './Components/Projects/Projects';
+import Resume from './Components/Resume/Resume';
 
 function App() {
   return (
     <div>
       <Router>
         <Switch>
-        <Route path="/home">
+          <Route path="/home">
             <Home/>
+          </Route>
+          <Route path="/resume">
+            <Resume/>
           </Route>
           <Route path="/services">
             <Services/>
           </Route>
-          <Route path="/dashboard">
-            <DashBoard/>
+          <Route path="/projects">
+            <Projects/>
           </Route>
           <Route path="/blogs">
             <Blogs/>
